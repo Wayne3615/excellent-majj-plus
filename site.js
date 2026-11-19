@@ -8,6 +8,13 @@ var CONFIG = { whatsapp: "233554843688", email: "excellentmajjplus1962@yahoo.com
     mb.addEventListener('click', function () {
       var o = hd.classList.toggle('open');
       mb.setAttribute('aria-expanded', o);
+      document.body.style.overflow = o ? 'hidden' : '';
+    });
+    var cx = document.querySelector('[data-mm-close]');
+    if (cx) cx.addEventListener('click', function () {
+      hd.classList.remove('open');
+      mb.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
     });
     document.querySelectorAll('.hd .nv a').forEach(function (a) {
       a.addEventListener('click', function () {
