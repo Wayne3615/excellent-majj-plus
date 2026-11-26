@@ -1,6 +1,6 @@
 /* Excellent Majj Plus Ltd, shared script.
    Requests are emailed to CONFIG.email (through formsubmit.co) and can also be sent on WhatsApp. */
-var CONFIG = { whatsapp: "233554843688", email: "excellentmajjplus1962@yahoo.com" };
+var CONFIG = { whatsapp: "233554843688", email: "excellentmajjplus1962@gmail.com" };
 
 (function () {
   var hd = document.querySelector('.hd'), mb = document.getElementById('menuBtn');
